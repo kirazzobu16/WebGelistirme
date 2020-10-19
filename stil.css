@@ -1,0 +1,46 @@
+body {
+    background-color: lightgreen;
+    
+}
+
+p {
+    text-align:center;
+    line-height: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    }
+
+    /* ziyaret edilmeyen bağlantı */
+    a:link {
+        color: #FF0000;
+    }
+
+/* ziyaret edilen bağlantı */
+a:visited {
+    color:blue;
+}
+
+/* fare gezinen bağlantı */
+a:hover {
+    color: #3B5A5C;
+    background-color: #618F92;
+}
+
+/* seçilmiş bağlantı */
+a:active {
+    color: #0000;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+ }
+ table{
+    width: 100%;
+ }
+ th {
+    height: 30px;
+    
+}
+td {
+    text-align: center;
+}
